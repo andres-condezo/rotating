@@ -15,7 +15,7 @@ body {
 .container {
   background-color: #fafafa;
   transform-origin: top left;
-  transition: transform 0.5s linear;
+  transition: transform 0.3s linear;
   width: 100vw;
   min-height: 100vh;
   padding: 50px;
@@ -37,7 +37,7 @@ body {
   width: 200px;
   border-radius: 50%;
   position: relative;
-  transition: transform 0.5s linear;
+  transition: transform 0.3s linear;
 }
 
 .container.show-nav .circle {
@@ -72,7 +72,7 @@ body {
 
 .container.show-nav + nav li {
   transform: translateX(0);
-  transition-delay: 0.3s;
+  transition-delay: 0.1s;
 }
 
 nav {
